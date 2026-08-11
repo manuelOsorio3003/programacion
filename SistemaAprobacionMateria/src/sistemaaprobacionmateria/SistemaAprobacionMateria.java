@@ -35,7 +35,7 @@ public class SistemaAprobacionMateria {
         promedio = (examen1 + examen2)/2;
         
         if (promedio>=65.0){
-            System.out.printf("Aprobado. su promedio es %.2f",promedio);
+            System.out.printf("Aprobado. %s su promedio es %.2f",estudiante,promedio);
         }//fin if
         else{
             System.out.printf("Reprobado. %s Su promedio es %.2f",estudiante,promedio);

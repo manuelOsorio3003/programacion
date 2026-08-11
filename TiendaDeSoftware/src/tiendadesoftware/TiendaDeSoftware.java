@@ -54,8 +54,8 @@ public class TiendaDeSoftware {
         descuentoAplicado = juego * descuento;
         total = juego - descuentoAplicado;
         
-        System.out.printf("Precio del juego: %.2f",juego);
-        System.out.printf("Descuento aplicado: %.2f",descuentoAplicado);
+        System.out.printf("Precio del juego: %.2f \n",juego);
+        System.out.printf("Descuento aplicado: %.2f \n",descuentoAplicado);
         System.out.printf("Total a pagar: %.2f",total);
         
     }//fin de main

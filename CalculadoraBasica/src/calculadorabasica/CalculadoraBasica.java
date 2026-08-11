@@ -54,7 +54,11 @@ public class CalculadoraBasica {
                 dato1 = sc.nextInt();
                 System.out.println("Ingrese el segundo dato a dividir:");
                 dato2 = sc.nextInt();
-                Resultado = dato1/dato2;
+                if (dato2 != 0) {
+                    Resultado = dato1 / dato2;
+                } else {
+                    System.out.println("Error: no se puede dividir entre cero");               
+                }              
                 System.out.printf("Resultado: %d",Resultado);
                 break;
             case 'D':
